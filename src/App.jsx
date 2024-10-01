@@ -17,16 +17,6 @@ const App = () => {
     setTotalClicks(totalClicks + 1);
   };
 
-  // TODO: setup page "secret password"
-  // const handleKeydown = (event) => {
-  //   setPassword(password.concat(event.key));
-  //   console.log(password.concat(event.key));
-  //   if (password.length === 2) {
-
-  //     console.log(password.concat(event.key).join(''));
-  //   }
-  // };
-
   useEffect(() => {
     myRef.current.addEventListener('click', handleClick);
     return () => {
