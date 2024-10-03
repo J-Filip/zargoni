@@ -1,3 +1,5 @@
+// const [password, setPassword] = useState([]);
+
 // TODO: setup page "secret password"
 // const handleKeydown = (event) => {
 //   setPassword(password.concat(event.key));
