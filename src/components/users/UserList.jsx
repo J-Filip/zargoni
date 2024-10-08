@@ -1,6 +1,4 @@
 const UserList = ({ list }) => {
-  console.log(list);
-
   return (
     <>
       {list.map((user) => {

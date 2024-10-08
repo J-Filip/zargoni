@@ -2,8 +2,6 @@ import Term from '@/components/Terms/Term';
 import { useCallback, useState } from 'react';
 
 const TermList = ({ terms }) => {
-  console.log(terms);
-
   const [termList, setTermList] = useState(terms);
   const [selectedTerm, setSelectedTerm] = useState(0);
   const [termOfTheDay, setTermOfTheDay] = useState(termList[0].definition);
@@ -36,7 +34,6 @@ const TermList = ({ terms }) => {
 
   const handleFinish = useCallback(() => {
     event.preventDefault();
-    console.log(comment);
     const newComment = {
       id: commentList.length + 1,
       content: comment,
