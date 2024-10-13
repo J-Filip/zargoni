@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -45,4 +49,23 @@ button {
 }
 button:hover {
   border-color: #646cff;
+}
+
+.error {
+  color: rgb(234, 65, 65);
+  background: rgba(197, 190, 190, 0.564);
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.sucess {
+  color: rgb(96, 237, 148);
+  background: rgba(197, 190, 190, 0.564);
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
